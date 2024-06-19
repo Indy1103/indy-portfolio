@@ -1,11 +1,17 @@
 import AboutMe from "./components/AboutMe";
+import LinkButtons from "./components/LinkButtons";
 import NavBar from "./components/NavBar";
+import Rover from "./components/Rover";
+import TitlePage from "./components/TitlePage";
+
 
 function App() {
   return (
-    <div>
-      <AboutMe />
+    <div className="bg-custom-slate">
       <NavBar />
+      <Rover />
+      <TitlePage />
+      <LinkButtons />
     </div>
   );
 }

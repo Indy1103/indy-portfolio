@@ -14,6 +14,7 @@ module.exports = {
           DEFAULT: 'rgba(183, 110, 121, 1)',
           light: 'rgba(212, 165, 165, 1)',
         },
+        'custom-slate': '#082036',
       },
     },
   },
