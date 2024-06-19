@@ -2,20 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap");
 
 body {
   @apply font-sans;
 }
 
 .hover-gradient-text:hover {
-  background: linear-gradient(135deg, rgba(183, 110, 121, 1), rgba(212, 165, 165, 1), rgba(183, 110, 121, 1));
+  background: linear-gradient(
+    135deg,
+    rgba(183, 110, 121, 1),
+    rgba(212, 165, 165, 1),
+    rgba(183, 110, 121, 1)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, rgba(183, 110, 121, 1), rgba(212, 165, 165, 1), rgba(183, 110, 121, 1));
+  background: linear-gradient(
+    135deg,
+    rgba(183, 110, 121, 1),
+    rgba(212, 165, 165, 1),
+    rgba(183, 110, 121, 1)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.list-rose-gold-arrow {
+  list-style: none; /* Remove default list styling */
+  padding-left: 1.5rem; /* Add padding to make space for the arrow */
+}
+
+.list-rose-gold-arrow li {
+  position: relative; /* Position relative to place the arrow */
+  padding-left: 1.5rem; /* Padding to create space for the arrow */
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+.list-rose-gold-arrow li::before {
+  content: "➔"; /* Arrow character */
+  position: absolute;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(183, 110, 121, 1),
+    rgba(212, 165, 165, 1),
+    rgba(183, 110, 121, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.2rem; /* Adjust size as needed */
 }
