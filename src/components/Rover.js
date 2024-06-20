@@ -10,7 +10,7 @@ function Rover() {
         height="84"
         viewBox="0 0 84 84"
         fill="none"
-        className="drop-shadow-md"
+        className="drop-shadow-md animate-rover"
       >
         <g clip-path="url(#clip0_89_19)">
           <path
