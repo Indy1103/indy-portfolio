@@ -56,4 +56,7 @@ body {
   font-size: 1.2rem; /* Adjust size as needed */
 }
 
+html {
+  scroll-behavior: smooth;
+}
 

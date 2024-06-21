@@ -1,8 +1,10 @@
-import Indy from "../assests/Indy.jpg"
+import Indy from "../assests/Indy.jpg";
 
 function AboutMe() {
   return (
-    <div className="text-center bg-custom-slate min-h-96  max-w-6xl mx-auto items-center px-4 py-10">
+    <div 
+    id="about-me"
+    className="text-center bg-custom-slate min-h-96 max-w-6xl mx-auto items-center px-4 py-10">
       <h1 className="gradient-text text-3xl font-bold py-10 drop-shadow-md"> About Me</h1>
       <div className="flex px-10">
         <div className="text-left px-20 md:w-2/3">
@@ -13,10 +15,9 @@ function AboutMe() {
           <br></br>
           <p className="text-white text-lg">
             Alongside this, I am the President for 
-            <span  className="gradient-text drop-shadow-md"> Space Exploration Alberta Robotics </span>
-             and a Co-op student for the 
-            <span className="gradient-text drop-shadow-md"> SMART & Sustainable </span>
-            Manufacturing Systems Lab.
+            <a href="https://www.spaceualberta.ca/" target="_blank" rel="noopener noreferrer" className="gradient-text drop-shadow-md"> Space Exploration Alberta Robotics </a>
+            and a Co-op student for the 
+            <a href="https://sites.ualberta.ca/~rafiq1/research-projects.html#" target="_blank" rel="noopener noreferrer" className="gradient-text drop-shadow-md"> SMART & Sustainable Manufacturing Systems Lab</a>.
           </p>
           <br></br>
           <p className="text-white text-lg">

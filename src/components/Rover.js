@@ -1,7 +1,8 @@
 function Rover() {
   return (
     <div
-      className="bg-custom-slate flex gap-24 min-h-28 items-center justify-center max-w-3xl mx-auto pt-20
+    id="home"
+      className="bg-custom-slate flex gap-24 min-h-40 items-center justify-center max-w-3xl mx-auto pt-24 py-4 mt-10
       "
     >
       <svg
@@ -32,7 +33,7 @@ function Rover() {
             <stop offset="1" stop-color="#B76E79" />
           </linearGradient>
           <clipPath id="clip0_89_19">
-            <rect width="84" height="84" fill="white" />
+            <rect width="96" height="96" fill="white" />
           </clipPath>
         </defs>
       </svg>

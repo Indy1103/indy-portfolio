@@ -8,25 +8,31 @@ function LinkButtons() {
       className="justify-center bg-custom-slate flex gap-20 min-h-40 items-center max-w-3xl mx-auto"
     >
       <div>
-        <img
-          src={Github}
-          alt="Description 1"
-          className="h-20 w-20 object-contain"
-        />
+        <a href="https://github.com/Indy1103" target="_blank" rel="noopener noreferrer">
+          <img
+            src={Github}
+            alt="GitHub"
+            className="h-20 w-20 object-contain"
+          />
+        </a>
       </div>
       <div>
-        <img
-          src={Linkedln}
-          alt="Description 1"
-          className="h-20 w-20 object-contain"
-        />
+        <a href="https://www.linkedin.com/in/indy03" target="_blank" rel="noopener noreferrer">
+          <img
+            src={Linkedln}
+            alt="LinkedIn"
+            className="h-20 w-20 object-contain"
+          />
+        </a>
       </div>
       <div>
-        <img
-          src={Mail}
-          alt="Description 1"
-          className="h-20 w-20 object-contain"
-        />
+        <a href="mailto:induwara.b03@gmail.com">
+          <img
+            src={Mail}
+            alt="Email"
+            className="h-20 w-20 object-contain"
+          />
+        </a>
       </div>
     </div>
   );
