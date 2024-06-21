@@ -1,8 +1,7 @@
-
 function TitlePage() {
   return (
     <div
-      
+      id="home"
       className="text-center bg-custom-slate flex gap-24 min-h-96 items-center max-w-3xl mx-auto px-4
       "
     >

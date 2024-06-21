@@ -7,9 +7,8 @@ function NavBar() {
   return (
     <nav className="bg-custom-slate px-12 py-6 pl-20 flex justify-between items-center fixed top-0 left-0 w-full z-10">
       <ul className="flex space-x-12 text-white text-lg">
-        <li className="hover-gradient-text text-xl">
-          Indy
-          <a href="#home">Home</a>
+        <li className="hover-gradient-text text-xl"> 
+          <a href="#home">Indy</a>
         </li>
         <li className="hover-gradient-text">
           <a href="#home">Home</a>

@@ -6,12 +6,14 @@ import Rover from "./components/Rover";
 import TitlePage from "./components/TitlePage";
 
 
+
 function App() {
   return (
     <div className="bg-custom-slate">
       <NavBar />
       <Rover />
       <TitlePage />
+
       <LinkButtons />
       <AboutMe />
       <ExperienceCard />
