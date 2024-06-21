@@ -50,7 +50,7 @@ const experiences = [
       "Built and designed a personal portfolio website",
       "Showcasing projects, skills, and experiences using modern web technologies",
     ],
-    github: "https://github.com/example/repo6",
+    github: "https://github.com/Indy1103/indy-portfolio/tree/main",
   },
   {
     title: "Docker Images",
