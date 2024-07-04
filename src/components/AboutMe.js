@@ -51,7 +51,7 @@ function AboutMe() {
             <ul className="text-white">
               <li>React.js</li>
               <li>ROS 2</li>
-              <li>ROS</li>
+              <li>OpenCV</li>
               <li>C++</li>
             </ul>
             <ul className="text-white">
