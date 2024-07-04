@@ -31,49 +31,55 @@ const experiences = [
   {
     title: "Autonomous Rover",
     description: [
-      "Designed and coded autonomous navigation algorithms for a rover",
-      "Enabling obstacle avoidance and path planning",
+      "Led the design and development of an autonomous rover system, utilizing 3D cameras for environmental perception and navigationr",
+      "Developed low-level code and drivers for various sensors, integrating them seamlessly with the rover's control system using ROS2.",
+      "Implemented key autonomy features, including localization, object detection, and path planning, enabling the rover to navigate complex environments independently.",
+      "Utilized ROS2 for efficient communication and coordination between the rover's subsystems, significantly enhancing system performance and reliability.",
     ],
     github: "https://github.com/UofA-SPEAR/Software_Kipp/tree/main/src/kipp_nav",
   },
   {
     title: "Rocker Bogie Control Algorithms",
     description: [
-      "Developed control algorithms for rocker bogie systems",
-      "Optimizing stability and mobility on rough terrains",
+      "Developed and implemented a rocker bogie control algorithm by researching and synthesizing information from academic papers, enhancing the rover's stability and maneuverability",
+      "Wrote steering code to implement various steering modes, including Ackerman steering, for independent steering and drive motors, optimizing the rover's navigation capabilities.",
+      "Utilized CAN (Controller Area Network) for reliable communication between the rover's steering and drive systems, ensuring precise and coordinated movements.",
     ],
     github: "https://github.com/UofA-SPEAR/Software_Kipp/blob/main/src/kipp_control/kipp_control/kipp_can_drive.py",
   },
   {
     title: "Portfolio Website",
     description: [
-      "Built and designed a personal portfolio website",
-      "Showcasing projects, skills, and experiences using modern web technologies",
+      "Designed and developed a responsive portfolio website using React, CSS, and Tailwind, ensuring optimal performance across various devices.",
+      "Created the UI/UX design in Figma, focusing on an intuitive and visually appealing user experience.",
+      "Implemented modern web design principles and best practices to enhance user engagement and accessibility."
     ],
     github: "https://github.com/Indy1103/indy-portfolio/tree/main",
   },
   {
     title: "Docker Images",
     description: [
-      "Created and maintained Docker images for various applications",
-      "Streamlining deployment and scalability",
+      "Designed Docker images for ROS and ROS2, creating streamlined development environments for robotics applications.",
+      "Simplified startup and development processes, enabling quick and efficient setup for robotics projects.",
+      "Ensured consistency and reproducibility across various development setups, enhancing collaboration and productivity within the team."
     ],
-    github: "https://github.com/example/repo7",
   },
   {
     title: "SPEAR President",
     description: [
-      "Led and managed the SPEAR student organization",
-      "Overseeing projects and promoting robotics and engineering activities",
+      "Directed interdisciplinary technical teams to design and construct an autonomous Mars rover, ensuring integration and performance of electrical, software, and mechanical systems.",
+      "Executed comprehensive project management and made critical decisions in high-stakes environments, leading the development of a 6 DOF arm and rocker bogie for extreme terrain navigation.",
+      "Strategically coordinated technical efforts and oversaw successful participation in the Canadian International Rover Challenge"
     ],
   },
   {
     title: "DFS and BFS Visualizer",
     description: [
-      "Developed a visualizer for Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms",
-      "Aiding in algorithm understanding",
+      "Developed a Python application using Tkinter for interactive graph creation, editing, and visualization.",
+      "Implemented real-time visualizations for Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms, allowing users to toggle nodes, create edges, and set starting points.",
+      "Enabled user-friendly graph management with features to clear graphs, and control algorithm execution, enhancing testing and educational use cases."
     ],
-    github: "https://github.com/example/repo9",
+    github: "https://github.com/Indy1103/pathfinding_visualization",
   },
 ];
 
